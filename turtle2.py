@@ -1,0 +1,30 @@
+from turtle import *
+
+t=Turtle()
+w=Screen()
+#w.bgcolor("yellow")
+#w.bgpic("L.gif")
+w.title("MY FIrst Turtle program")
+t.shape("turtle")
+t.hideturtle()
+t.pensize(5)
+t.speed(1)
+#t.color("red","green")
+'''t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)'''
+t.pencolor("yellow")
+t.fillcolor("#c65708")
+t.begin_fill()
+for i in range(4):
+    #t.forward(100)
+    t.fd(100)
+    t.left(90)
+t.end_fill()
+
+t.bk(500)
+done()
