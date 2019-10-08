@@ -26,5 +26,5 @@ for i in range(4):
     t.left(90)
 t.end_fill()
 
-t.bk(500)
+#t.bk(500)
 done()
